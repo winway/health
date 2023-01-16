@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/drawable/gridview_item_background.xml" value="0.1455" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/drawable/match_search_box_background.xml" value="0.1455" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/activity_about.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/activity_food_detail.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/activity_guide.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/activity_home_menu.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/activity_match_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/activity_nutrition.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/gridview_item_nutrition.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/item_listview_match.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/item_viewpager_about.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/item_viewpager_guide.xml" value="0.29014598540145986" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/list_item_match.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/health/app/src/main/res/layout/listview_item_match.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

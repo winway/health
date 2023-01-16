@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/about_banner_vp"
+        android:layout_width="match_parent"
+        android:layout_height="230dp" />
+
+    <LinearLayout
+        android:id="@+id/about_banner_point_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/about_version_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="当前版本：v1.0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@mipmap/icon_door" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/about_phone_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="联系电话：12345678"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@mipmap/icon_phone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/about_address_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="公司地址：公司地址"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@mipmap/icon_world" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/about_share_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="分享软件"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@mipmap/icon_flash" />
+
+</LinearLayout>

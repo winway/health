@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gridview_item_background"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/gvitem_nutrition_pic_iv"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            tools:src="@mipmap/beef" />
+
+        <TextView
+            android:id="@+id/gvitem_nutrition_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gvitem_nutrition_pic_iv"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="牛肉" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

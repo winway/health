@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:id="@+id/detail_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@mipmap/search_background">
+
+            <ImageView
+                android:id="@+id/detail_back_iv"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:src="@mipmap/btn_back" />
+
+            <TextView
+                android:id="@+id/detail_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:text="牛肉" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/detail_pic_iv"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_margin="20dp"
+            android:scaleType="fitXY"
+            tools:src="@mipmap/beef" />
+
+        <TextView
+            android:id="@+id/detail_desc_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="牛肉" />
+
+        <TextView
+            android:id="@+id/detail_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="16sp"
+            tools:text="1111111111111111111111" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/food_info_middle_background"
+            android:padding="10dp"
+            android:text="不宜同食的食物列表"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_conflict_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            tools:text="22222222222" />
+
+    </LinearLayout>
+
+</ScrollView>
